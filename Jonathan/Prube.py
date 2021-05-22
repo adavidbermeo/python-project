@@ -10,7 +10,7 @@ invertida, con el vértice hacia abajo.
 
 print('*********')
 print(' *     *')
-print('  *   *')
+print('  * * *')
 print('    * ')
 
 """
