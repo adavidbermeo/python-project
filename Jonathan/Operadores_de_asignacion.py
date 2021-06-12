@@ -5,6 +5,6 @@ numero -= 5  #La variable numero vale 20
 numero *= 2  #La variable numero vale 40
 numero /=4   #La variable numero vale 10
 numero **= 2 #La variable numero vale 100
-numero %= 4  #La variable vale 0
+numero %= 2  #La variable vale  
 
 print(numero)
