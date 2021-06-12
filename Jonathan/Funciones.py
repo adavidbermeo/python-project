@@ -14,8 +14,8 @@ suma2(11,25) # Se pueden modificar los valores asignados por parametro en cada l
 
 suma2(13,13)
 
-def resta(num1,num2):
+def resta(num1,num2): #Funcion con parametros que devuelve una variable (return)
     resultado = num1 - num2
     return resultado
 
-print(resta(10,3))
+print(resta(10,3))# Cuando una varible tiene un return se debe imprimir al hacer la llamada, para que se muestre por pantalla un resultado
