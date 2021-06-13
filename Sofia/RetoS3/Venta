@@ -1,1 +1,28 @@
-""" """
+# Codigo del vendedor
+# Asignar la variable
+cod_vendedor = input("Digite el código del vendedor")
+print(cod_vendedor)
+ 
+# primera validación cantidad de digitos
+def calcular_cantidad_digitos(cod_vendedor):
+    num_caracteres=len(cod_vendedor)
+    print(num_caracteres)
+
+calcular_cantidad_digitos(cod_vendedor)
+
+# segunda validación tercer digito es asterisco
+def posicion_asterisco(cod_vendedor):
+    position=cod_vendedor.find("*")
+    print(position)
+
+posicion_asterisco(cod_vendedor)
+
+'''
+# segunda validación asterisco
+def calcular_cantidad_digitos(cod_vendedor):
+
+# tercera validación primer y ultimo iguales
+def calcular_cantidad_digitos(cod_vendedor):
+
+# definir función para autenticar vendedor principal
+def autenticar_vendedor(cod_vendedor):'''

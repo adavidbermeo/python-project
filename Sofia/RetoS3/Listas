@@ -1,0 +1,2 @@
+lista=["Juan", 12, "kg", 8]
+print(lista)
